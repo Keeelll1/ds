@@ -67,6 +67,10 @@ img {
 	display: block;
 }
 
+video::-webkit-media-controls {
+    display:none !important;
+}
+
 .container {
 	max-width: 1360px;
 	margin: 0 auto;
